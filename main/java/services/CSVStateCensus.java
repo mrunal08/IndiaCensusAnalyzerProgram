@@ -29,6 +29,7 @@ public class CSVStateCensus {
 
             List<StatesCensusCSVModel> statesCensus = csvToBean.parse();
             return statesCensus;
+            
         } catch (IOException e) {
             throw new ClassCastException(e.getMessage());
         }
